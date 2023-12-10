@@ -1,0 +1,26 @@
+###
+POST http://127.0.0.1:5000/todo/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Learn Python 2",
+    "description": "Learn Python for web development 2"
+}
+
+###
+GET http://127.0.0.1:5000/todo/ HTTP/1.1
+
+###
+GET http://127.0.0.1:5000/todo/65762fc6f87cee9cf324cf14 HTTP/1.1
+
+###
+PUT http://127.0.0.1:5000/todo/65762fc6f87cee9cf324cf14 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Learn Python and Flask and something else",
+    "done": "True"
+}
+
+###
+DELETE http://127.0.0.1:5000/todo/65762fc6f87cee9cf324cf14 HTTP/1.1
