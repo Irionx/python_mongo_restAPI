@@ -58,3 +58,11 @@ Este proyecto tiene un archivo requirements.txt que contiene las dependencias ne
 ````
 pip install -r requirements.txt
 ````
+
+## Por Ultimo! .env
+
+no olvidemos conectar nuestra base de datos, para este proyecto utilicé Mongodb atlas y agregé la URI para conectarse a la base de datos en un archivo .env en la raiz del repositorio
+.env
+MONGO_URI=mongodb+srv://<username>:<password>@cluster0.wk7ilvc.mongodb.net/pythonflaskdb
+
+(custer0 default, modifiquelo si es necesario segun sus necesidades)
